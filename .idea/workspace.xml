@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="337ad91b-773f-4fb9-837c-bdabf271bf59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/FlameCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/Premain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cli/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/byteprofile/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/FlameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/FlameCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.byteprofile.agent" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723712304767</updated>
       <workItem from="1723712305873" duration="2550000" />
-      <workItem from="1723714864495" duration="2886000" />
+      <workItem from="1723714864495" duration="8650000" />
     </task>
     <servers />
   </component>
@@ -103,7 +104,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/com/byteprofile/Main.java</url>
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/byteprofile/core/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
