@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="337ad91b-773f-4fb9-837c-bdabf271bf59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/Premain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/byteprofile/core/StackTraceProfiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/byteprofile/core/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/byteprofile/agent/Premain.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/byteprofile/agent/Premain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cli/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/FlameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/cli/src/main/java/com/byteprofile/cli/commands/FlameCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jfr" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723712304767</updated>
       <workItem from="1723712305873" duration="2550000" />
-      <workItem from="1723714864495" duration="8650000" />
+      <workItem from="1723714864495" duration="13508000" />
     </task>
     <servers />
   </component>

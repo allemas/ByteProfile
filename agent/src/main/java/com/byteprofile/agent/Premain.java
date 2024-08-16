@@ -1,6 +1,10 @@
 package com.byteprofile.agent;
 
 
+import com.byteprofile.core.StackTraceProfiler;
+import jdk.jfr.consumer.RecordedClass;
+import jdk.jfr.consumer.RecordingStream;
+
 import java.lang.instrument.Instrumentation;
 
 public class Premain {
@@ -18,7 +22,22 @@ public class Premain {
      * @throws Exception
      */
     public static void agentmain(String args, Instrumentation inst) {
-        System.out.println("Agentmain");
+        StackTraceProfiler profiler = new StackTraceProfiler();
+        profiler.run();
+
+
+        // exp
+        var rs = new RecordingStream();
+        rs.enable("jdk.JavaMonitorWait");
+        rs.enable("jdk.JVMInformation");
+        rs.enable("jdk.CPUInformation");
+
+        rs.onEvent("jdk.CPUInformation", event -> {
+            System.out.println("BOOOOOL ------>   " + event.getDuration());
+        });
+
+        rs.startAsync();
+
     }
 
 

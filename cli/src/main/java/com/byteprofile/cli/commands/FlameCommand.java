@@ -20,8 +20,6 @@ public class FlameCommand implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Hello world Flame cmd!" + agentPid);
-
         File agentFile = null;
         try {
             agentFile = new File(Premain.class.getProtectionDomain().getCodeSource().getLocation()
